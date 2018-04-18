@@ -4,7 +4,7 @@ Given an array, reverse the index orders of the values
 ## Challenge
 Given an array, reverse the index orders of the values
 
-![alt text](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/reverseArray/assets/reverseArray.png)
+![alt text](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/reverseArray/assets/reverseArray.jpg)
 
 ## Solution
 <!-- Embedded whiteboard image -->
