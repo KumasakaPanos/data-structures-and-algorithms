@@ -4,6 +4,8 @@ Given an array, reverse the index orders of the values
 ## Challenge
 Given an array, reverse the index orders of the values
 
+![alt text](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/reverseArray/assets/reverseArray.png)
+
 ## Solution
 <!-- Embedded whiteboard image -->
 'use strict'
@@ -17,8 +19,6 @@ function reverseArray (input) {
     }
     return input;
 }
-
-
 
 ## Task List
 - [x] Whiteboarding done
