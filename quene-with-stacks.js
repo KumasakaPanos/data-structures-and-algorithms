@@ -31,7 +31,8 @@
 //         return(oldHead);
 //     }
 // }
-function Stack(){
+const Quene=module.exports={}
+Quene.Stack=()=>{
     this.content=new Array;
     this.push=function(stackInput){
         this.content.push(stackInput);
@@ -40,9 +41,10 @@ function Stack(){
         return(this.content.pop());
     }
 }
-function Quene(){
+Quene.Quene=()=>{
     this._Stack1=new Stack();
     this._Stack2=new Stack();
+    this.content=this._Stack1;
     this.enquene = function(input){this._Stack1.push(input)}
     this.transfer=function(stackA,stackB){
         let pushContent='bup';
@@ -54,5 +56,7 @@ function Quene(){
     this.dequene=function(){
         this.transfer(this._Stack1,this._Stack2);
         this._Stack2.pop();
+        this._Stack1=this._Stack2;
+        this._Stack1=null;
     }
 }
