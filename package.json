@@ -2,7 +2,7 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "quene-with-stacks.js",
+  "main": "bracket-chest.js",
   "scripts": {
     "test": "jest"
   },
