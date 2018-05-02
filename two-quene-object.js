@@ -31,6 +31,30 @@
 //         return(oldHead);
 //     }
 // }
+function AnimalShelter(){
+    this.dogs=new Quene();
+    this.cats=new Quene();
+    this.current=0;
+    this.enquene=function(animal){
+        if(animal==='dog')
+    {this.dogs.enquene(animal);
+        return('Your dog has been added to the list of animals awaiting adoption.')}
+        if(animal==='cat')
+    {this.cats.dequene(animal);
+        return('Your cat has been added to the list of animals awaiting adoption.')}
+    }
+    this.dequene=function(species){
+if(species===dog)
+{return(dogs.pop())}
+if(species===cat)
+{return(cats.pop())}
+switch(current){
+    case 1:return(cats.pop())
+    break;
+    case 0:return(dogs.pop())
+    break;
+}
+}
 function Stack(){
     this.content=new Array;
     this.push=function(stackInput){
@@ -43,16 +67,21 @@ function Stack(){
 function Quene(){
     this._Stack1=new Stack();
     this._Stack2=new Stack();
-    this.enquene = function(input){this._Stack1.push(input)}
+    this.content;
+    this.enquene = function(input){
+        this._Stack1.push(input);
+        this.content=_Stack1.content;
+    }
     this.transfer=function(stackA,stackB){
-        let pushContent='bup';
+        let pushContent='test';
         while(pushContent!==undefined)
         {pushContent=stackA.pop()
         if(pushContent!==undefined)
         {stackB.push(pushContent)}}
     }
-    this.dequene=function(){
-        this.transfer(this._Stack1,this._Stack2);
-        this._Stack2.pop();
+    this.dequene=function(Origin,Destination){
+        this.transfer(Origin,Destination);
+        Destination.pop();
+        this.content=Destination
     }
 }
