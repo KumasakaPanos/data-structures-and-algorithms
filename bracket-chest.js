@@ -1,7 +1,22 @@
 'use strict';
-
+function Node(content,next){
+    this.content=content;
+    this.next=next;
+}
+function Stack(){
+    this.head=null;
+    this.push=function(content){
+        let newNode=new Node(content,this.head);
+        this.head=newNode
+    }
+    this.pop=function(){
+        let content=this.head.content;
+        this.head=this.head.next;
+        return(content);
+    }
+}
 bracketChecker=function(input){
-    let bracketStorage=new Array();
+    let bracketStorage=new Stack();
     for(let i=0;i<input.length;i++)
     {
         switch(input[i]){
