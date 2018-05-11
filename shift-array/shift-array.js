@@ -1,12 +1,14 @@
 'use strict'
 function shiftArray(arr,val){
-    let temp=arr;
-    arr[arr.length]=temp[temp.length-1];
-    let rounder=temp.length%2;
-    let mid=parseInt(temp.length/2)+rounder;
-    for(let i=mid;i<temp.length-1;i++){
-        arr[i+1]=temp[i];
+    console.log(arr);
+    let half=Math.floor(arr.length/2);
+    let temp=new Array;
+    for(let i=0;i<arr.length;i++)
+        {
+        if(i===half){temp.push(0)}
+        temp.push(arr[i]);
+        }
+        temp[half]=val;
+    return temp;
     }
-    arr[mid]=val;
-    return arr;
-}
+module.exports=shiftArray;
