@@ -5,4 +5,4 @@ Write a function called find-maximum-value which takes binary tree as its only i
 Go through a binary tree in a breadth first order, return each value as it is encountered.
 
 ## Solution
-![Whiteboard](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/horizontal-traverser/whiteboard/whiteboard.bmp)
+![Whiteboard](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/horizontal-traverser/breadth-first-traversal/whiteboard/whiteboard.bmp)
