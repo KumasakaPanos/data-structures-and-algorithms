@@ -2,7 +2,11 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "bracket-chest.js",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^22.4.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "jest"
   },
