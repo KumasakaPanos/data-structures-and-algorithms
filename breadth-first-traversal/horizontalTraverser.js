@@ -12,7 +12,6 @@
 function Tree()
 {
     this.head;
-
     this.Node=function(content)
     {
         this.left;
@@ -20,35 +19,17 @@ function Tree()
         this.content=content;
         this.parent;
     }
-    
-    
     this.traverser=()=>
     {
-        let nodeArray=new Array;
-        this.returnValue='';
-        let parentNode=this.head;
-        let currentRow=this.head;
-        this.mapper(this.head,nodeArray);
-        while(nodeArray[0]){
-            returnValue=`${returnValue} ${nodeArray.shift()}`;
-        }
+        this.returnValue=0;
+        this.mapper(this.head);
         return(this.returnValue);
     }
-
-    this.mapper=(currentNode,nodeArray)=>
-    {
-        this.returnValue=`${this.returnValue} ${currentNode.content}`
-        if(currentNode.left){
-        this.mapper(currentNode.left,nodeArray);
-        }
-        if(currentNode.right){
-        this.mapper(currentNode.right,nodeArray);
-        }
-    }
-
-    this.Checker=(node)=>
-    {
-        return(node.value);
+    this.mapper=(Node)=>{
+        if(Node.content>this.returnValue)
+        {this.returnValue=Node.content}
+        this.mapper(Node.left);
+        this.mapper(Node.right)
     }
 }
 module.exports=Tree;
