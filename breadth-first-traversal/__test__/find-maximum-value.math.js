@@ -9,5 +9,5 @@ Maple.head.left.right=new Maple.Node(5)
 Maple.head.right=new Maple.Node(15);
 test('testing horizontal traversal',()=>{
     let result=Maple.traverser();
-    expect(result).toEqual(` 1 2 3 5 15`);
+    expect(result).toEqual(`15`);
 });
