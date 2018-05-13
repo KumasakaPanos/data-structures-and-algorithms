@@ -1,8 +1,8 @@
-# Insert and shift middle index of array
-Place a given value in the center of a given array
+# array_adjacent_product
+find the largest product of two adjacent values
 
 ## Challenge
-<!-- Description of the challenge -->
-
-## Solution
-<!-- Embedded whiteboard image -->
+Take in a 2d array
+Move down the y axis
+Mutiply each value encountered by the next value on both aces
+Return the highest number reached.
