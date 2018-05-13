@@ -6,5 +6,3 @@ Take in a 2d array
 Move down the y axis
 Mutiply each value encountered by the next value on both aces
 Return the highest number reached.
-
-## Solution
