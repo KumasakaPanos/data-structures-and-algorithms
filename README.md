@@ -9,4 +9,4 @@ an insert after method
 ​
 ## Solution
 <!-- Embedded whiteboard image -->
-​
+![alt text](https://raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/ll-kth-from-end/assets/whiteboard.png)
