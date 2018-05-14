@@ -2,7 +2,23 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "bracket-chest.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
+    "jest": "^22.4.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+
   "scripts": {
     "test": "jest"
   },
