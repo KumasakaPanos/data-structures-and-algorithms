@@ -1,12 +1,8 @@
-# kth from the end of a Linked List
-Create a linked list with 3 methods
-​
+# Linked List Insertions
+<!-- Short summary or background information -->
+
 ## Challenge
-create a linked list
-give it an append method
-an insert before method
-an insert after method
-​
+<!-- Description of the challenge -->
+
 ## Solution
 <!-- Embedded whiteboard image -->
-​
