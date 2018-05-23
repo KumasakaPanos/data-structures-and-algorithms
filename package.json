@@ -2,7 +2,7 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "bracket-chest.js",
+  "main": "print_level_order.js",
   "scripts": {
     "test": "jest"
   },
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/spinaltaper/data-structures-and-algorithms/issues"
   },
-  "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme"
+  "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "jest": "^22.4.4"
+  }
 }
