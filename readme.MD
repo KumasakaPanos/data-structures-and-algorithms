@@ -8,4 +8,4 @@ Create a function that can be fed a tree  and a value and returns all nodes who 
 4. return data structure
 
 ## Solution
-(raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/_all_matches/assets/whiteboard.png)
+[!raw.githubusercontent.com/spinaltaper/data-structures-and-algorithms/_all_matches/assets/whiteboard.png]
