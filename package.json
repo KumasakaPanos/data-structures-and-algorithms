@@ -1,8 +1,8 @@
 {
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
-  "description": "",
-  "main": "print_level_order.js",
+  "description": "<!-- Short summary or background information -->",
+  "main": "find_all_matches.js",
   "scripts": {
     "test": "jest"
   },
@@ -16,11 +16,7 @@
     "url": "https://github.com/spinaltaper/data-structures-and-algorithms/issues"
   },
   "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
+  "devDependencies": {
     "jest": "^22.4.4"
   }
 }
