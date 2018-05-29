@@ -1,4 +1,4 @@
-const testFunction = require('./solution');
+const testFunction = require('../solution');
 
 const testString='The quick brown dog jumped on a lazy fox.'
 const testString1='The peckish pidgeons presumptously perused the packed park.'

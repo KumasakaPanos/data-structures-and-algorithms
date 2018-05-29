@@ -1,6 +1,5 @@
 module.exports=function findCommon(input)
 {
-    console.log(input);
     if(input == null||input == '')
     {
         return('Invalid input');
@@ -15,7 +14,7 @@ module.exports=function findCommon(input)
         {
             return input[i];
         }
-        storer[input[i]]='';
+        storer[input[i]]=' ';
     }
     return('No matches found');
 }
