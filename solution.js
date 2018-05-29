@@ -15,7 +15,7 @@ module.exports=function findCommon(input)
         {
             return input[i];
         }
-        storer[input[i]]=input[i];
+        storer[input[i]]='';
     }
     return('No matches found');
 }
