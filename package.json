@@ -2,7 +2,7 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "",
-  "main": "quene-with-stacks.js",
+  "main": "solution.jest.js",
   "scripts": {
     "test": "jest"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/spinaltaper/data-structures-and-algorithms/issues"
   },
-  "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme"
+  "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "jest": "^23.0.1"
+  }
 }
