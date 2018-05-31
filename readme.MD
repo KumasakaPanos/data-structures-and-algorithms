@@ -5,4 +5,4 @@
 <!-- Description of the challenge -->
 
 ## Solution
-<!-- Embedded whiteboard image -->
+![whiteboard](/assets/whiteboard.png)

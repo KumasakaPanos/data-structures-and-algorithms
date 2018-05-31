@@ -1,8 +1,11 @@
 {
-  "name": "data-structures-and-algorithms",
+  "name": "b",
   "version": "1.0.0",
   "description": "<!-- Short summary or background information -->",
-  "main": "find_all_matches.js",
+  "main": "treeIntersection.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "jest"
   },
@@ -16,7 +19,10 @@
     "url": "https://github.com/spinaltaper/data-structures-and-algorithms/issues"
   },
   "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme",
-  "devDependencies": {
-    "jest": "^22.4.4"
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0"
   }
 }
