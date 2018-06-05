@@ -1,11 +1,8 @@
 {
-  "name": "b",
+  "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "<!-- Short summary or background information -->",
-  "main": "treeIntersection.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "leftJoin.js",
   "scripts": {
     "test": "jest"
   },
@@ -21,8 +18,6 @@
   "homepage": "https://github.com/spinaltaper/data-structures-and-algorithms#readme",
   "dependencies": {
     "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-jest": "^21.17.0",
     "jest": "^23.1.0"
   }
 }
