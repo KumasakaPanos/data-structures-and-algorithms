@@ -1,22 +1,19 @@
 {
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "description": "Create a linked list with 3 methods\r ​\r ## Challenge\r create a linked list\r give it an append method\r an insert before method\r an insert after method\r ​\r ## Solution\r <!-- Embedded whiteboard image -->\r ​",
+  "main": "mergesort.js",
   "dependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-register": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jest": "^21.15.1",
-    "jest": "^22.4.3"
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0"
+    "jest": "^22.4.4"
   },
   "scripts": {
     "test": "jest"
