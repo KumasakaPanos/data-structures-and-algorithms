@@ -4,5 +4,5 @@ Create a function which takes in an array, runs it through a runSort sorting alg
 ## Challenge
 ​
 ## Solution
-![](assets/whiteboard.png)
+![](whiteboard.png)
 ​
