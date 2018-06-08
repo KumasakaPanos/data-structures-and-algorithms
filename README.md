@@ -1,12 +1,8 @@
-# kth from the end of a Linked List
-Create a linked list with 3 methods
+# mergeSort
+Create a function which takes in an array, runs it through a runSort sorting algorithm and returns 
 ​
 ## Challenge
-create a linked list
-give it an append method
-an insert before method
-an insert after method
 ​
 ## Solution
-<!-- Embedded whiteboard image -->
+![](assets/whiteboard.png)
 ​
